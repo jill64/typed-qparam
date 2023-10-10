@@ -1,6 +1,6 @@
-import { PreparedSerializerKey } from './types/PreparedSerializerKey.js'
-import { PreparedSerializerTypes } from './types/PreparedSerializerTypes.js'
-import { Serializer } from './types/Serializer.js'
+import { PreparedSerializerKey } from '../types/PreparedSerializerKey.js'
+import { PreparedSerializerTypes } from '../types/PreparedSerializerTypes.js'
+import { Serializer } from '../types/Serializer.js'
 
 export const preparedSerializers = {
   string: {
