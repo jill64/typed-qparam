@@ -5,13 +5,13 @@ Type-safe query parameter manipulation
 ## Installation
 
 ```sh
-npm i @jill64/typed-qparam
+npm i typed-qparam
 ```
 
 ## Example
 
 ```js
-import { extract } from '@jill64/typed-qparam'
+import { extract } from 'typed-qparam'
 
 const qparam = extract('https://example.com/?foo=bar')
 
@@ -44,7 +44,7 @@ console.log(url.href)
 | `csv`     | string[] |
 
 ```js
-import { extract } from '@jill64/typed-qparam'
+import { extract } from 'typed-qparam'
 
 const qparam = extract('https://example.com/?num=123')
 
@@ -60,7 +60,7 @@ console.log(foo.get())
 ## Custom Serializer
 
 ```ts
-import { extract } from '@jill64/typed-qparam'
+import { extract } from 'typed-qparam'
 
 const qparam = extract()
 
