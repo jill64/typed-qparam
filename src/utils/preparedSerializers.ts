@@ -17,7 +17,7 @@ export const preparedSerializers = {
   },
   csv: {
     stringify: (val) => val.join(','),
-    parse: (str) => (str ? str?.split(',') : [])
+    parse: (str) => (str ? str.split(',') : [])
   }
 } satisfies {
   [key in PreparedSerializerKey]: Serializer<PreparedSerializerTypes[key]>
