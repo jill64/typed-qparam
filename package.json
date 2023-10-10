@@ -1,6 +1,6 @@
 {
   "name": "@jill64/typed-qparam",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Type-safe query parameter manipulation",
   "main": "dist/index.js",
