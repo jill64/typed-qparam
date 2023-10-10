@@ -1,7 +1,7 @@
-import { PreparedSerializerKey } from './PreparedSerializerKey'
-import { PreparedSerializerTypes } from './PreparedSerializerTypes'
-import { Qparam } from './Qparam'
-import { Serializer } from './Serializer'
+import { PreparedSerializerKey } from './PreparedSerializerKey.js'
+import { PreparedSerializerTypes } from './PreparedSerializerTypes.js'
+import { Qparam } from './Qparam.js'
+import { Serializer } from './Serializer.js'
 
 export type MakeQparam = {
   <T extends PreparedSerializerKey>(
