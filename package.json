@@ -1,6 +1,6 @@
 {
-  "name": "@jill64/typed-qparam",
-  "version": "0.0.2",
+  "name": "typed-qparam",
+  "version": "0.0.3",
   "type": "module",
   "description": "Type-safe query parameter manipulation",
   "main": "dist/index.js",
@@ -24,9 +24,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/typed-qparam.git"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "scripts": {
     "build": "tsc && npx publint",
