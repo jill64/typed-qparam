@@ -1,6 +1,6 @@
 {
   "name": "typed-qparam",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "Type-safe query parameter manipulation",
   "main": "dist/index.js",
