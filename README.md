@@ -1,7 +1,6 @@
 # typed-qparam
 
 [![npm](https://img.shields.io/npm/v/typed-qparam)](https://npmjs.com/package/typed-qparam)
-[![CI](https://github.com/jill64/typed-qparam/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/typed-qparam/actions/workflows/ci.yml)
 
 Type-safe query parameter manipulation
 
