@@ -1,9 +1,12 @@
+<!----- BEGIN GHOST DOCS HEADER ----->
+
 # typed-qparam
 
-[![npm](https://img.shields.io/npm/v/typed-qparam)](https://npmjs.com/package/typed-qparam)
-[![codecov](https://codecov.io/gh/jill64/typed-qparam/graph/badge.svg?token=BUWUAjccHU)](https://codecov.io/gh/jill64/typed-qparam)
+[![npm-version](https://img.shields.io/npm/v/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-license](https://img.shields.io/npm/l/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-download-month](https://img.shields.io/npm/dm/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-min-size](https://img.shields.io/bundlephobia/min/typed-qparam)](https://npmjs.com/package/typed-qparam) [![codecov-coverage](https://codecov.io/gh/jill64/typed-qparam/graph/badge.svg)](https://codecov.io/gh/jill64/typed-qparam)
 
 Type-safe query parameter manipulation
+
+<!----- END GHOST DOCS HEADER ----->
 
 ## Installation
 
