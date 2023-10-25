@@ -2,7 +2,7 @@
 
 # typed-qparam
 
-[![npm-version](https://img.shields.io/npm/v/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-license](https://img.shields.io/npm/l/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-download-month](https://img.shields.io/npm/dm/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-min-size](https://img.shields.io/bundlephobia/min/typed-qparam)](https://npmjs.com/package/typed-qparam)
+[![npm-version](https://img.shields.io/npm/v/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-license](https://img.shields.io/npm/l/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-download-month](https://img.shields.io/npm/dm/typed-qparam)](https://npmjs.com/package/typed-qparam) [![npm-min-size](https://img.shields.io/bundlephobia/min/typed-qparam)](https://npmjs.com/package/typed-qparam) [![ci.yml](https://github.com/jill64/typed-qparam/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/typed-qparam/actions/workflows/ci.yml)
 
 Type-safe query parameter manipulation
 
