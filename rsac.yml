@@ -1,5 +1,5 @@
 branch-protection:
   branch-name:
     required_status_checks:
-      checks:
-        - lint
+      contexts:
+        - test / run-vitest
