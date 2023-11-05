@@ -2,14 +2,16 @@
   "name": "typed-qparam",
   "version": "1.0.0",
   "type": "module",
-  "description": "Type-safe query parameter manipulation",
+  "description": "🔍 Type-safe query parameter manipulation",
   "main": "dist/index.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/typed-qparam/issues",
   "homepage": "https://github.com/jill64/typed-qparam#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -18,8 +20,9 @@
     }
   },
   "keywords": [
-    "query-parameter",
-    "type-safe"
+    "querystring",
+    "typesafe",
+    "utility"
   ],
   "repository": {
     "type": "git",
