@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { extract } from '../src/index'
+import { extract } from './index.js'
 
 test('custom', () => {
   const qparam = extract('https://example.com/?json={"key": "value"}')
