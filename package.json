@@ -21,8 +21,7 @@
   },
   "keywords": [
     "querystring",
-    "typesafe",
-    "utility"
+    "typesafe"
   ],
   "repository": {
     "type": "git",
