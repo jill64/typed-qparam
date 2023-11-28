@@ -1,0 +1,5 @@
+export * from 'ts-serde'
+export * from 'ts-serde/object'
+export * from 'ts-serde/primitive'
+export * from 'ts-serde/types'
+export * from 'ts-serde/utils'

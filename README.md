@@ -16,10 +16,14 @@ npm i typed-qparam
 
 ## Example
 
+> [!NOTE]
+>
+> `string` input was not supported in v1. Please use `URL` instead.
+
 ```js
 import { extract } from 'typed-qparam'
 
-const qparam = extract('https://example.com/?foo=bar')
+const qparam = extract(new URL('https://example.com/?foo=bar'))
 
 const foo = qparam('foo')
 
@@ -38,9 +42,58 @@ const url = foo.set('baz')
 console.log(url.href)
 ```
 
-## Prepared Serializer
+## Custom Serializer
 
-### Available Keys
+> [!NOTE]
+>
+> Property names for custom serializers have been changed.
+>
+> ```ts
+> // v1
+> {
+>   stringify: // ... value => string
+>   parse: // ... string => value
+> }
+> ```
+>
+> ```ts
+> // v2
+> {
+>   serialize: // ... value => string
+>   deserialize: // ... string => value
+> }
+> ```
+
+```ts
+import { extract } from 'typed-qparam'
+
+const qparam = extract(/* ... */)
+
+const json = qparam('json', {
+  serialize: (value) => JSON.stringify(value),
+  deserialize: (value) => JSON.parse(value)
+})
+
+/**
+ * @value { key: 'value' }
+ * @type { key: string }
+ */
+console.log(json.get())
+
+/** @type {URL} */
+const url = json.set({ key: 'new_value' })
+
+/**
+ * @value 'https://example.com/?json={"key": "new_value"}'
+ */
+console.log(url.href)
+```
+
+## Legacy (<= v1)
+
+### Prepared Serializer
+
+#### Available Keys
 
 | number    | type     |
 | --------- | -------- |
@@ -61,32 +114,4 @@ const foo = qparam('foo', 'number')
  * @type {number}
  */
 console.log(foo.get())
-```
-
-## Custom Serializer
-
-```ts
-import { extract } from 'typed-qparam'
-
-const qparam = extract()
-
-const json = qparam<{ key: string }>('json', , {
-  stringify: (value) => JSON.stringify(value),
-  parse: (value) => JSON.parse(value ?? '')
-})
-
-/**
- * @value { key: 'value' }
- * @type { key: string }
- */
-console.log(json.get())
-
-
-/** @type {URL} */
-const url = json.set({ key: 'new_value' })
-
-/**
- * @value 'https://example.com/?json={"key": "new_value"}'
- */
-console.log(url.href)
 ```

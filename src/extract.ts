@@ -1,31 +1,32 @@
-import type { MakeQparam } from './types/MakeQparam.js'
-import type { PreparedSerializerKey } from './types/PreparedSerializerKey.js'
-import type { Serializer } from './types/Serializer.js'
-import { isPreparedSerializerKey } from './utils/isPreparedSerializerKey.js'
-import { preparedSerializers } from './utils/preparedSerializers.js'
+import { Serde } from 'ts-serde'
+import { string } from 'ts-serde/primitive'
+import { Qparam } from './types/Qparam.js'
 
-export const extract = (url: string | URL): MakeQparam => {
-  const source = new URL(url)
-
-  return <T>(
-    key: string,
-    serializer?: Serializer<T> | PreparedSerializerKey
-  ) => {
-    const { parse, stringify } = (
-      isPreparedSerializerKey(serializer)
-        ? preparedSerializers[serializer]
-        : serializer ?? preparedSerializers.string
-    ) as Serializer<T>
+export const extract =
+  (
+    url: URL
+  ): {
+    <T>(key: string, serde: Serde<T>): Qparam<T>
+    (key: string): Qparam<string>
+  } =>
+  <T>(key: string, serde?: Serde<T>) => {
+    const { serialize, deserialize } = (serde ?? string) as Serde<T>
 
     const get = () => {
-      const val = source.searchParams.get(key)
-      return parse(val)
+      const str = url.searchParams.get(key) ?? ''
+      return deserialize(str)
     }
 
     const set = (value: T) => {
-      const dist = new URL(source)
-      const val = stringify(value)
-      dist.searchParams.set(key, val)
+      const dist = new URL(url)
+      const str = serialize(value)
+
+      if (str) {
+        dist.searchParams.set(key, str)
+      } else {
+        dist.searchParams.delete(key)
+      }
+
       return dist
     }
 
@@ -34,4 +35,3 @@ export const extract = (url: string | URL): MakeQparam => {
       set
     }
   }
-}

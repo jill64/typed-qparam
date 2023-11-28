@@ -1,8 +1,9 @@
 import { expect, test } from 'vitest'
-import { enums, extract } from './index.js'
+import { extract } from './index.js'
+import { enums } from './serde/index.js'
 
 test('enum', () => {
-  const qparam = extract('https://example.com/?str=bar')
+  const qparam = extract(new URL('https://example.com/?str=bar'))
 
   const non = qparam('non', enums(['foo', 'bar'], 'foo'))
   expect(non.get()).toBe('foo')
