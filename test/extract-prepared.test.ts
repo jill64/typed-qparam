@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { extract } from './index.js'
-import { boolean, number, string } from './serde/index.js'
+import { extract } from '../src/index.js'
+import { boolean, number, string } from '../src/serde/index.js'
 
 test('string', () => {
   const qparam = extract(new URL('https://example.com/?str=bar'))
