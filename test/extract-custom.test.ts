@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { extract } from './index.js'
-import { json } from './serde/index.js'
+import { extract } from '../src/index.js'
+import { json } from '../src/serde/index.js'
 
 test('custom', () => {
   const qparam = extract(new URL('https://example.com/?json={"key": "value"}'))

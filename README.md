@@ -6,13 +6,13 @@
 
 🔍 Type-safe query parameter manipulation
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Installation
 
 ```sh
 npm i typed-qparam
 ```
-
-<!----- END GHOST DOCS HEADER ----->
 
 ## Example
 

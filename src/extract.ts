@@ -1,5 +1,4 @@
-import { Serde } from 'ts-serde'
-import { string } from 'ts-serde/primitive'
+import { Serde, string } from './serde/index.js'
 import { Qparam } from './types/Qparam.js'
 
 export const extract =

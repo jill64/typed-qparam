@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { extract } from './index.js'
-import { enums } from './serde/index.js'
+import { extract } from '../src/index.js'
+import { enums } from '../src/serde/index.js'
 
 test('enum', () => {
   const qparam = extract(new URL('https://example.com/?str=bar'))
