@@ -87,19 +87,6 @@ const enumerate = qparam(
 )
 ```
 
-> [!TIP]
-> if error occurred when importing `typed-qparam/serde`, try to change `moduleResolution` in `tsconfig.json` like below.
->
-> ```json:tsconfig.json
->   {
->     // ...
->     "compilerOptions": {
->       // ...
->       "moduleResolution": "Bundler"
->     }
->   }
-> ```
-
 ## Array Param
 
 Sometimes you need to handle query parameters with multiple values in the same key, such as `?str=hello&str=world`.  
