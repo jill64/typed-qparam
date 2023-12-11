@@ -5,7 +5,12 @@
   "description": "🔍 Type-safe query parameter manipulation",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/typed-qparam/issues",
   "homepage": "https://github.com/jill64/typed-qparam#readme",
   "files": [
@@ -31,7 +36,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/typed-qparam.git"
+    "url": "https://github.com/jill64/typed-qparam.git",
+    "image": "https://opengraph.githubassets.com/3a8646ed5fbf7179441f6a149347122c088b58da0da905fb231a85d1bb00a117/jill64/typed-qparam"
   },
   "scripts": {
     "build": "tsc && npx publint",
@@ -42,7 +48,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.0.1",
+    "@jill64/eslint-config-ts": "1.0.2",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.3.3",
     "vitest": "1.0.4"
