@@ -1,13 +1,11 @@
 {
   "name": "typed-qparam",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "type": "module",
   "description": "🔍 Type-safe query parameter manipulation",
   "main": "dist/index.js",
   "license": "MIT",
   "author": {
-    "name": "jill64",
-    "email": "143883742+jill64@users.noreply.github.com",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -48,7 +46,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.0.5",
+    "@jill64/eslint-config-ts": "1.0.6",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.3.3",
     "vitest": "1.0.4"
