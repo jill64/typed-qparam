@@ -111,3 +111,11 @@ console.log(str.get())
 // https://example.com/?str=foo&str=bar&str=baz
 str.set(['foo', 'bar', 'baz'])
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
