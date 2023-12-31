@@ -51,7 +51,7 @@
     "@jill64/eslint-config-ts": "1.0.8",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.3.3",
-    "vitest": "1.1.0"
+    "vitest": "1.1.1"
   },
   "dependencies": {
     "ts-serde": "1.0.2"
