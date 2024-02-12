@@ -2,11 +2,11 @@
 
 # typed-qparam
 
-
 <!----- BEGIN GHOST DOCS BADGES ----->
-<a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/npm/v/typed-qparam" alt="npm-version" /></a> <a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/npm/l/typed-qparam" alt="npm-license" /></a> <a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/npm/dm/typed-qparam" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/bundlephobia/min/typed-qparam" alt="npm-min-size" /></a> <a href="https://github.com/jill64/typed-qparam/actions/workflows/ci.yml"><img src="https://github.com/jill64/typed-qparam/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a>
-<!----- END GHOST DOCS BADGES ----->
 
+<a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/npm/v/typed-qparam" alt="npm-version" /></a> <a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/npm/l/typed-qparam" alt="npm-license" /></a> <a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/npm/dm/typed-qparam" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/typed-qparam"><img src="https://img.shields.io/bundlephobia/min/typed-qparam" alt="npm-min-size" /></a> <a href="https://github.com/jill64/typed-qparam/actions/workflows/ci.yml"><img src="https://github.com/jill64/typed-qparam/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a>
+
+<!----- END GHOST DOCS BADGES ----->
 
 🔍 Type-safe query parameter manipulation
 
@@ -120,6 +120,6 @@ str.set(['foo', 'bar', 'baz'])
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 <!----- END GHOST DOCS FOOTER ----->
