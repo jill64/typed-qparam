@@ -1,6 +1,6 @@
 {
   "name": "typed-qparam",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "type": "module",
   "description": "🔍 Type-safe query parameter manipulation",
   "main": "dist/index.js",
@@ -50,7 +50,7 @@
   "devDependencies": {
     "@jill64/eslint-config-ts": "1.1.17",
     "@jill64/prettier-config": "1.0.0",
-    "typescript": "5.4.4",
+    "typescript": "5.4.5",
     "vitest": "1.4.0"
   },
   "dependencies": {
