@@ -1,6 +1,6 @@
 {
   "name": "typed-qparam",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "type": "module",
   "description": "🔍 Type-safe query parameter manipulation",
   "main": "dist/index.js",
@@ -54,6 +54,6 @@
     "vitest": "1.5.0"
   },
   "dependencies": {
-    "ts-serde": "1.0.4"
+    "ts-serde": "1.0.5"
   }
 }
