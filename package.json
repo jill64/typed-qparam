@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "intents.turrets0h@icloud.com",
+    "email": "contact@jill64.dev",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -37,7 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/typed-qparam.git",
-    "image": "https://opengraph.githubassets.com/a7cf37c8ae81a401beb276e30d0858a34771ed3dc892ede2301b52e2cdb3d884/jill64/typed-qparam"
+    "image": "https://opengraph.githubassets.com/37de86ff42b916ce872fb15ff87b05017131dd41d0dd88cf4bc7441edfb46d95/jill64/typed-qparam"
   },
   "scripts": {
     "build": "tsc && npx publint",
