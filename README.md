@@ -49,6 +49,7 @@ console.log(url.href)
 ## Typed Param
 
 By passing a conversion function as the second argument, you can obtain a value converted to any type.
+See [ts-serde](https://github.com/jill64/ts-serde#readme) for more information on type guard.
 
 ```js
 import { extract } from 'typed-qparam'
