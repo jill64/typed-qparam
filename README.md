@@ -71,6 +71,7 @@ const dist = num.set(456)
 ### Prepared Converter
 
 You can also use the prepared converters in `typed-qparam/serde`.
+See [ts-serde](https://github.com/jill64/ts-serde#readme) for more information on type guard
 
 ```js
 import { extract } from 'typed-qparam'
