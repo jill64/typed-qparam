@@ -37,7 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/typed-qparam.git",
-    "image": "https://opengraph.githubassets.com/b797c3b8b37b5e129f070d71356f4c3f68ec6597254944262263520b4e8d4b5a/jill64/typed-qparam"
+    "image": "https://opengraph.githubassets.com/6e4b129345852329ea6580025b9987dd93d5ca45a6d4ca94bce9b73b1c47c867/jill64/typed-qparam"
   },
   "scripts": {
     "build": "tsc && npx publint",
@@ -51,7 +51,7 @@
     "@jill64/eslint-config-ts": "1.1.43",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.6.2",
-    "vitest": "2.1.1"
+    "vitest": "2.1.2"
   },
   "dependencies": {
     "ts-serde": "1.0.8"
