@@ -31,13 +31,14 @@
     }
   },
   "keywords": [
+    "library",
     "querystring",
     "typesafe"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/typed-qparam.git",
-    "image": "https://opengraph.githubassets.com/acab63c921e02d8b75e193432327c9373f25254253156cb8fd01c24d07298022/jill64/typed-qparam"
+    "image": "https://opengraph.githubassets.com/5b3a13bc76bfd826a368f0de5e3d48c0969a0205a90ac112d6ddd02e2ee7607e/jill64/typed-qparam"
   },
   "scripts": {
     "build": "tsc && npx publint",
@@ -51,7 +52,7 @@
     "@jill64/eslint-config-ts": "2.0.3",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.7.2",
-    "vitest": "2.1.8"
+    "vitest": "3.0.0"
   },
   "dependencies": {
     "ts-serde": "1.0.8"
