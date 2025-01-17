@@ -38,7 +38,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/typed-qparam.git",
-    "image": "https://opengraph.githubassets.com/0636c4358e8982db4ccbf465e10b4e69176857c1ebd6105745d33de66e796d4d/jill64/typed-qparam"
+    "image": "https://opengraph.githubassets.com/61694c0945ecd8a9cc0c9dcb3284b9b8745eadd191e1fecdbebf377be08b62ef/jill64/typed-qparam"
   },
   "scripts": {
     "build": "tsc && npx publint",
