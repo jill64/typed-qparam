@@ -55,6 +55,6 @@
     "vitest": "3.0.8"
   },
   "dependencies": {
-    "ts-serde": "1.0.8"
+    "ts-serde": "1.0.9"
   }
 }
