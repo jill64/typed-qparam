@@ -1,6 +1,6 @@
 {
   "name": "typed-qparam",
-  "version": "2.1.14",
+  "version": "2.1.15",
   "type": "module",
   "description": "🔍 Type-safe query parameter manipulation",
   "main": "dist/index.js",
@@ -38,7 +38,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/typed-qparam.git",
-    "image": "https://opengraph.githubassets.com/06f3ea5193b7640f244f7613627daa341b276aeb408b2cce9c098b3f96ba57c1/jill64/typed-qparam"
+    "image": "https://opengraph.githubassets.com/cae2fc3a2c761a66f22786d0438b0ffa001dd7dfbb4142a31c1043b36a63e938/jill64/typed-qparam"
   },
   "scripts": {
     "build": "tsc && npx publint",
@@ -55,6 +55,6 @@
     "vitest": "3.0.8"
   },
   "dependencies": {
-    "ts-serde": "1.0.8"
+    "ts-serde": "1.0.9"
   }
 }
